@@ -1,0 +1,72 @@
+body{
+    background-image: url('https://i.ibb.co/pwV2tqj/pexels-anna-tarazevich-6035324.jpg');
+    background-size: 1550px 800px;;
+}
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    background-color: #966c40; 
+    display: flex;
+}
+
+.horizontal-menu li {
+    flex-grow: 1;
+}
+
+.horizontal-menu li a {
+    display: block;
+    color: #F4E1BB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal-menu li a:hover {
+    background-color: #F4E1BB; 
+    color: #6B4226; 
+}
+
+.nav-design-element {
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn.unifiedcommerce.com/content/product/large/4895145408691.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertical-menu {
+    width: 200px;
+    background-color: #9e4b13; 
+    padding: 10px;
+}
+
+.vertical-menu a {
+    color: #F4E1BB; 
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.vertical-menu a:hover {
+    background-color: #F4E1BB; 
+    color: #6B4226; 
+}
+
+.nav-design-element {
+    width: 20px;
+    height: 20px;
+    background-color: #9e4b13; 
+    margin: 10px ;
+}
+
+.horizontal-menu-icon {
+    width: 30px; 
+    height: 30px;
+    margin: 0 10px; 
+    vertical-align: middle;
+}
+
+.vertical-menu-icon {
+    width: 20px; 
+    height: 20px; 
+}
